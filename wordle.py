@@ -17,7 +17,7 @@ def get_guess():
 #gets a word for the game
 def get_words():
     
-    # chacks to see if you give it a wordlist as a CSV if not the except gives a word for its short list
+    # chacks to see if you give it a wordlist as a CSV if not the except gives a word from its short list
      try:
         file_name = sys.argv[1]
         get_file_word(file_name)
@@ -72,4 +72,5 @@ print("'!' is the right letter in the wrong place")
 print("'X' is the wrong letter in the wrong place", end="" )    
 
 check_words()
+
 
